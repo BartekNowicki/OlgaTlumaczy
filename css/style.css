@@ -376,7 +376,9 @@ header button.btn2{
 .grid-item8 p:nth-of-type(1){
   padding:10px;
   font-size: var(--rozmiarNagłówków);
-  /* background-color: yellowgreen; */
+  background-color: rgba(55, 205, 50, 0.5);
+    border-radius: 10px;
+    margin-top: 3vw;
 }
 
 .grid-item8 p:nth-of-type(2){
@@ -1974,9 +1976,9 @@ nav{
     padding-top:15px;
     padding-bottom:15px;
     padding-right: 1.5vw;
-    padding-left: 1.5vw;
+    padding-left: 1.1vw;
     text-decoration: none;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
     color: var(--headerFontColor);
     text-transform: uppercase;
     /* relative i overflow dla aftera i hovera */
@@ -2022,10 +2024,11 @@ nav{
     display:block;
     width: 50%;
     text-align: center;
-    color: var(--headerFontColor);
+    /* color: var(--headerFontColor); */
+    color: rgba(255, 255, 255, 0.7);
     font-size: 4vw;
     position: absolute;
-    top: 25%;
+    top: 15%;
     transform: translateY(50%);
     left: 50%;
     transform: translateX(-50%);
@@ -2035,17 +2038,17 @@ nav{
     animation-iteration-count: 1;
     padding: 3px 5px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
   }
   
   header h2{
     display:block;
     width: 50%;
     text-align: center;
-    color: var(--headerFontColor);
-    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2.6vw;
     position: absolute;
-    top: 50%;
+    top: 38%;
     transform: translateY(50%);
     left: 50%;
     transform: translateX(-50%);
@@ -2055,17 +2058,17 @@ nav{
     animation-iteration-count: 1;
     padding: 3px 5px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
   }
   
   header h3{
     display:block;
     width: 50%;
     text-align: center;
-    color: var(--headerFontColor);
-    font-size: 1.5vw;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2.6vw;
     position: absolute;
-    top: 70%;
+    top: 60%;
     transform: translateY(50%);
     left: 50%;
     transform: translateX(-50%);
@@ -2075,14 +2078,14 @@ nav{
     animation-iteration-count: 1;
     padding: 3px 5px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     
   }
   
   header button{
     color: var(--headerFontColor);
     background-color: transparent;
-    font-size: 1vw;
+    font-size: 1.5vw;
     line-height: 2vw;
     cursor: pointer;
     padding: 1vw 1.5vw;
@@ -2100,11 +2103,11 @@ nav{
   }
   
   header button.btn1{
-    left: 44%;
+    left: 40%;
   }
   
   header button.btn2{
-    left: 56%;
+    left: 60%;
   }
   
   .circle {
@@ -2176,7 +2179,7 @@ nav{
   
   .grid-item1 .p2, .grid-item2 .p2, .grid-item3 .p2, .grid-item4 .p2{
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     margin:15px;
     font-family: 'Roboto', sans-serif;
   }
@@ -2209,7 +2212,7 @@ nav{
     font-family: 'Roboto', sans-serif;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 1vw;
+    padding-top: 2vw;
     text-align: justify;  
     /* border: 1px solid blue; */
   }
@@ -2267,13 +2270,16 @@ nav{
   
   .grid-item8 p:nth-of-type(1){
     padding:10px;
-    font-size: var(--rozmiarNagłówków);
-    /* background-color: yellowgreen; */
+    font-size: 2vw;
+    background-color: rgba(55, 205, 50, 0.5);
+    border-radius: 10px;
+    margin-top: 3vw;
+    
   }
   
   .grid-item8 p:nth-of-type(2){
     padding:10px;
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     /* background-color: yellowgreen; */
   }
   
@@ -2312,7 +2318,7 @@ nav{
   }
   
   .grid-item11 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 1px solid red; */
   }
@@ -2451,8 +2457,11 @@ nav{
   
   .grid-item20 p:nth-of-type(2){
     color:rgb(238, 238, 238);
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
   }
   /* 21 to kontener dla ekranu galerii */
   /* ekran jest fixed */
@@ -2583,7 +2592,7 @@ nav{
   }
   
   .grid-item22 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 3px solid red; */
   }
@@ -2609,7 +2618,7 @@ nav{
   }
   
   .grid-item23 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 3px solid red; */
     
@@ -2636,7 +2645,7 @@ nav{
   }
   
   .grid-item24 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 3px solid red; */
   }
@@ -2662,7 +2671,7 @@ nav{
   }
   
   .grid-item25 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 3px solid red; */
   }
@@ -2688,7 +2697,7 @@ nav{
   }
   
   .grid-item26 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 3px solid red; */
   }
@@ -2714,7 +2723,7 @@ nav{
   }
   
   .grid-item27 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 3px solid red; */
   }
@@ -2738,108 +2747,112 @@ nav{
   }
   
   .grid-item28 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 1px solid red; */
   }
   
   .grid-item29{
     grid-column: 1/4;
-    align-items: start;
-    align-content: center;
-    display:grid;
+    align-items: flex-start;
+    align-content: flex-start;
     justify-items: center;
+    display:grid;
     background-color: var(--mainColorLight2);
     color:var(--whitish3);
-  
+    padding-top: 10px;
     /* color:red; */
     }
   
   .grid-item29 p:nth-of-type(1){
     font-size: var(--rozmiarNagłówków);
     text-transform: uppercase;
-    padding:20px;
+    padding:10px;
     text-align:center;
   }
   
   .grid-item29 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
-    padding:20px;
+    font-size: 1.5vw;
+    padding:10px;
     text-align:center;
   }
   
   .grid-item30{
     grid-column: 4/7;
     display:grid;
-    justify-items: center;
+    
     background-color: var(--bodyColor);
     color:var(--whitish3);
-    align-items: start;
-    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-items: center;
     background-color: var(--mainColorLight2);
+    padding-top: 10px;
   }
   
   .grid-item30 p:nth-of-type(1){
     font-size: var(--rozmiarNagłówków);
     text-transform: uppercase;
-    padding:20px;
+    padding:10px;
     text-align:center;
   }
   
   .grid-item30 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
-    padding:20px;
+    font-size: 1.5vw;
+    padding:10px;
     text-align:center;
   }
   
   .grid-item31{
     grid-column: 1/4;
     display:grid;
-    justify-items: center;
     background-color: var(--bodyColor);
     color:var(--whitish3);
-    align-items: start;
-    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-items: center;
     background-color: var(--mainColorLight2);
+    padding-top: 10px;
   }
   
   .grid-item31 p:nth-of-type(1){
     font-size: var(--rozmiarNagłówków);
     text-transform: uppercase;
-    padding:20px;
+    padding:10px;
     text-align:center;
   }
   
   .grid-item31 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
-    padding:20px;
+    font-size: 1.5vw;
+    padding:10px;
     text-align:center;
   }
   
   .grid-item32{
     grid-column: 4/7;
     display:grid;
-    justify-items: center;
     background-color: var(--bodyColor);
     color:var(--whitish3);
-    align-items: start;
-    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-items: center;
     background-color: var(--mainColorLight2);
+    padding-top: 10px;
   }
   
   .grid-item32 p:nth-of-type(1){
     font-size: var(--rozmiarNagłówków);
     text-transform: uppercase;
-    padding:20px;
+    padding:10px;
     text-align:center;
   }
   
   .grid-item32 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
-    padding:20px;
+    font-size: 1.5vw;
+    padding:10px;
     text-align:center;
   }
-  
+    
   .circle4 {
     display: block;
     width: 6vw;
@@ -2857,14 +2870,13 @@ nav{
     grid-column: 7/13;
     grid-row: 18/20;
     display:grid;
-    justify-items: center;
+    justify-items: flex-start;
     /* background-color: rgb(21, 134, 21); */
     height:77vw;
     background-image: url(../img/OlgaSkorupka2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 0.5px solid red; */
-  
+    /* border: 0.5px solid red; */  
     border-bottom: 77vw solid transparent;
     /* poniższy border-left musi mieć jakąś alfę mniejszą od 1 bo inaczej efekt znika */
     border-left: 10vw solid rgba(247,224,236,0.99);
@@ -2987,7 +2999,7 @@ nav{
   }
   
   .grid-item39 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 1px solid red; */
   }
@@ -3181,9 +3193,6 @@ nav{
   }
   
   
-  
-  
-  
   .grid-item48{
     grid-column: 1/13;
     display:grid;
@@ -3203,7 +3212,7 @@ nav{
   }
   
   .grid-item48 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 1px solid red; */
   }
@@ -3270,7 +3279,7 @@ nav{
     padding: 10px;
     /* border: 1px solid red; */
     margin-top: 20px;
-    font-size: 1.5vw;
+    font-size: 3vw;
     text-align: center;
     text-transform: uppercase;
     color: black;
@@ -3281,6 +3290,7 @@ nav{
   .pricebox p {
     padding: 10px;
     text-align: center;
+    font-size: 3vw;
   }
   
   .pricebox a {
@@ -3297,6 +3307,7 @@ nav{
     cursor: pointer;
     text-decoration: none;
     background-color: rgba(220, 184, 253, 0.411);
+    font-size: 3vw;
   }
   
   .noShowButTakeUpSpace{
@@ -3322,7 +3333,7 @@ nav{
   }
   
   .grid-item53 p:nth-of-type(2){
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 1px solid yellowgreen; */
   }
@@ -3334,6 +3345,7 @@ nav{
     background-color: var(--bodyColor);
     /* border: 1px solid red; */
     padding: 3vw;
+    
   }
   
   .QAtop {
@@ -3342,6 +3354,7 @@ nav{
     background-color: white;
     padding:3px;
     line-height: 1.5;
+    font-size: 2vw;
   }
   .QAbottom {
     width:100%;
@@ -3349,6 +3362,7 @@ nav{
     background-color: white;
     padding:3px;
     line-height: 1.5;
+    font-size: 2vw;
   }
   
   span.q1 {
@@ -3357,12 +3371,14 @@ nav{
     color: white;
     padding: 0px 4px;
     line-height: 2;
+    font-size: 2vw;
   }
   span.a1 {
     display:inline-block;
     background-color: var(--mainColor);
     color: white;
     padding: 0px 4px;
+    font-size: 2vw;
     
   }
   .grid-item55{
@@ -3439,18 +3455,23 @@ nav{
     opacity: 0.5;
   }
   
+  .aroundPhone {
+    font-size: 2vw;
+  }
+
   .grid-item60 p{
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     padding-left: 3vw;
     padding-right: 3vw;
-    padding-top: 1vw;
+    padding-top: 0.5vw;
     text-align: left;  
     /* border: 1px solid blue; */
+    
   
   }
   .grid-item60 p:nth-of-type(1){
-    font-size: var(--rozmiarNagłówków);
+    font-size: 2vw;
     text-transform: uppercase;
     padding-top: 4vw;
     padding-bottom: 2vw;
@@ -3496,7 +3517,7 @@ nav{
     /* border: 1px solid green; */
     /* relative dla referencji: tekstó i atorów p(1), p(2) */
     position: relative;
-    height: 20vw;
+    height: 40vw;
     border: 0.5px dashed rgba(233, 233, 233, 0.5);
     overflow: hidden;
   }
@@ -3513,6 +3534,7 @@ nav{
     transform: translate(-50%,-50%);
     padding:10px;
     transition: 0.5s linear;
+    font-size: 2vw;
   }
   
   .referencjeAutor1, .referencjeAutor2, .referencjeAutor3, .referencjeAutor4, .referencjeAutor5, .referencjeAutor6,
@@ -3520,6 +3542,7 @@ nav{
     position: absolute;
     left:50%;
     top: 60%;
+    font-size: 2vw;
   }
   
   .dot {
@@ -3550,7 +3573,7 @@ nav{
   }
   
   .grid-item64 p{
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 0.7vw;
     color: var(--mainColor);
     /* border: 1px solid red; */
@@ -3576,7 +3599,7 @@ nav{
   }
   
   .grid-item65 p{
-    font-size: var(--rozmiarTekstów);
+    font-size: 2vw;
     padding: 10px;
     /* border: 1px solid red; */
   }
