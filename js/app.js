@@ -1,4 +1,4 @@
-//przesyłam zmienne do css root dla testu:
+//zmienne do css root:
 //let root = document.documentElement;
 let root = document.querySelector(":root");
 root.style.setProperty('--someColor', 'red');
@@ -108,10 +108,6 @@ document.addEventListener('scroll', ()=>{
     
     if (window.scrollY > 50){
         navBar.classList.add("waveInBack");
-        // navBarA.forEach((item) => item.style.color = "black");
-        // NIE DA RADY...  navBarA.forEach((item) => item::after.style.backgroundColor = "white");
-        
-
     } else {
         navBarA.forEach((item) => item.style.color = "white");
         // navBar.classList.remove("gradient1");

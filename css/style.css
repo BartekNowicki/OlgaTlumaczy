@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  /* sprawdzam, że zmienna przeszła z js */
+  
   /* border: 2px solid var(--someColor); */
   height: 100%;
   width: 100%;
